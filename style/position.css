@@ -1,0 +1,118 @@
+/* 2022-2023 ITW PL22 */
+/* Grupo 34 */
+/* 60276 Beatriz Santos */
+/* 60290 João Martins */
+/* 60253 Hugo Silva */
+
+
+
+body {
+    background-image: url("../media/IMAGENS/abelhinha.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.maintitle, title {
+    display: inline-block;
+}
+
+.bottomleft {
+    position: fixed;
+    bottom: 8px;
+    left: 0%;
+    right: 90%;
+    font-size: 18px;
+}
+
+.bottomright {
+    position: fixed;
+    bottom: 8px;
+    right: 0%;
+    left: 90%;
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+}
+
+.howtoplay-container {
+    display: flex;
+}
+
+.column {
+    text-align: justify;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.welcometext, .menu-container {
+    width: 400px;
+    margin-left: 30%;
+    margin-right: 65%;
+}
+
+.log-in {
+    margin-left: 30%;
+    margin-right: 65%;
+    width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    right: 70%;
+    left: 30%;
+    max-width: 300px;
+    table-layout: fixed;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
+
+.gametext {
+    text-align: justify;
+}
+
+.board {
+    text-align: right;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+
+.ranking {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.ranking td:first-child {
+    width: 600px;
+}
+
+.ranking td:nth-child(2) {
+    width: 500px;
+}
+
+.ranking th, .ranking td {
+    text-align: center;
+}
+  
+
+.elem {
+    text-align: left;
+}

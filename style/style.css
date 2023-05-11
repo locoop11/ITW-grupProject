@@ -1,0 +1,177 @@
+/* 2022-2023 ITW PL22 */
+/* Grupo 34 */
+/* 60276 Beatriz Santos */
+/* 60290 João Martins */
+/* 60253 Hugo Silva */
+
+body {
+    /*background-image: url("../media/IMAGENS/abelhinha.jpg");*/
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+.maintitle {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: bolder;
+    font-size: 100px;
+    background-color: #FFF387;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.title {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: bolder;
+    font-size: 80px;
+    background-color: #FFF387;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #FFF387;
+    color:#000000;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: underline;
+}
+  
+a:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+  
+a:hover {
+    color: #FFF387;
+    text-decoration: underline;
+}
+
+.button:hover {
+    background-color: #000000;
+    color:#FFF387
+}
+
+.button:visited {
+    background-color: #FFF387;
+    color: #000000;
+}
+
+.howtoplay-container {
+    margin-left: 20px;
+    padding: 50px;
+}
+
+.column {
+    padding: 0 20px;;
+    flex-basis: 50%;
+    background-color: #FFF387;
+    line-height: 150%;
+    margin-right: 50px;
+}
+
+.decor {
+    padding: 10px 20px;
+    background-color: #FFF387;
+}
+
+.welcometext, .log-in, .menu-container{
+    padding: 10px 20px;
+    background-color: #FFF387;
+}
+
+
+form {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+  
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  select {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    width: 100%;
+    
+}
+  
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+  
+table {
+    background-color: #000000;
+}
+
+td {
+    padding: 5px;
+    border: 3px solid #FFF387;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color:#d98729;
+
+}
+
+.gametext {
+    font-size: medium;
+}
+
+
+.ranking {
+    border-collapse: collapse;
+    background-color: #FFF387;
+    border: 2px solid black;
+}
+
+
+.ranking th, .ranking td {
+    padding: 10px;
+    border: 1px solid black;
+}
+  
+
+.elem {
+    padding: 8px;
+    border: 2px solid black;
+}
+  

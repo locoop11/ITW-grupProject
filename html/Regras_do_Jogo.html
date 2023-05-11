@@ -1,0 +1,95 @@
+<!-- 2022-2023 ITW PL22 -->
+<!-- Grupo 34 -->
+<!-- 60276 Beatriz Santos -->
+<!-- 60290 João Martins -->
+<!-- 60253 Hugo Silva-->
+
+<!--O QUE FALTA:-->
+<!--MEDIA QUERIES-->
+<!--BOTÃO DE SEM SOM FUNCIONAR -->
+<!--EXPLICAR OS MODOS DE JOGO E REVER AS REGRAS -->
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <head>
+        <title> BEEJEWELED </title>
+        <meta charset="utf-8">
+        <link href="./style/style.css" rel="stylesheet" >
+        <link href="./style/position.css" rel="stylesheet">
+    </head>
+    <body>
+        <audio src="./media/SONS/music.mp3" autoplay></audio>
+        <h1 class="title"> BEEJEWELED</h1>
+        <div class="howtoplay-container">
+            <div class="column">
+                <h1 class="rules"> How to Play: </h1>
+                <div>
+                    <p>
+                    In the beggining of each game, is shown a board filled with jewels of seven different types randomly arranged, 
+                    where three jewels of the same type cannot be aligned horizontally.
+                    <br>
+                    <br>
+                    A move consists of selecting two adjacent jewels, horizontally or vertically, 
+                    which are exchanged (one occupies the other's place and vice versa) if, as a result, 
+                    three or more identical jewels are aligned horizontally.
+                    <br>
+                    <br>
+                    When three or more identical jewels are lined up horizontally (or vertically), they are eliminated from the board
+                    and the jewels above those eliminated go down the board to occupy the spaces that became vacant. 
+                    At the same time, at the top of the board, new randomly selected gems appear.
+                    <br>
+                    <br>
+                    A chain reaction can happen if, after removing and repositioning jewels, the board is left with three or more jewels
+                    aligned horizontally.
+                    <br>
+                    <br>
+                    The selection of jewels can be done with the mouse or the keyboard, only one of these input devices is sufficient. 
+                    For example, with the mouse it would be enough to click on a jewel to select it. 
+                    <br>
+                    There may be boards where, due to the arrangement of the jewels, it is impossible to make a move,
+                    and the player can manually end the game by pressing the button 'Quit!'.
+                    <br>
+                    <br>
+                    A game ends when the goal of removing twenty or more gems from the board is reached, 
+                    or if the 'Quit!' game button is manually pressed.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <h1 class="objectives">Game Objective:</h1>
+                <div>
+                    <p>
+                        The game's objective is to line up three or more identical jewels, causing them to be eliminated from a 8x8 board, 
+                        occasionally causing a chain reaction in which the adjacent jewels, when occupying the spaces that were left vacant, 
+                        generate other alignments and eliminations of jewels.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <h1> Game Development:</h1>
+                    <br>
+                    Having as model the game Bejeweled created by PopCap Games in 2001, this game was developed  by:
+                    <ul>
+                        <li>Beatriz Santos</li>
+                        <li>João Lucas Martins</li>
+                        <li>Hugo Silva</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="video-container">
+                    <h1>Video Demonstration: </h1>
+                    <video source src="https://youtu.be/lvLtaf1PFVM" controls autoplay></video>
+                    <br>
+                    <br>
+                    <br>
+                    <br>                    
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <img src="./media/IMAGENS/abelha.png" height="150px" class="decor">
+        <h3><a class="bottomleft" href="./projeto.html"><img src="./media/IMAGENS/home.png" height="50" alt="Home"></a></h3>
+        <img src="./media/IMAGENS/som.png" class="bottomright" height="70px">
+    </body>
+</html>

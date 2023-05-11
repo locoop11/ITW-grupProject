@@ -1,0 +1,120 @@
+<!-- 2022-2023 ITW PL22 -->
+<!-- Grupo 34 -->
+<!-- 60276 Beatriz Santos -->
+<!-- 60290 João Martins -->
+<!-- 60253 Hugo Silva-->
+
+
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <head>
+        <title> BEEJEWELED </title>
+        <meta charset="utf-8">
+        <link href="./style/style.css" rel="stylesheet" >
+        <link href="./style/position.css" rel="stylesheet">
+    </head>
+    <body>
+        <audio src="./media/SONS/music.mp3" autoplay></audio>
+        <div class="container">
+            <div class="gametext">
+                <h1 class="gametitle"> BEEJEWELED</h1>
+                <br>
+                <h2>Score: <span id="spanPontuacao"> 0 </span> </h2>
+                <br>
+                <h2>Moves: <span id="spanJogadas"> 0 </span></h2>
+                <br>
+                <h2>Timer: <span id="spanTempoJogo"> 0 </span></h2>
+            </div>
+        <div class="board">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td id="0-0"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                        <td id="0-1"><img src="./media/IMAGENS/colmeia.png" height="50px" width="50px"></td>
+                        <td id="0-2"><img src="./media/IMAGENS/favo.png" height="50px" width="50px"></td>
+                        <td id="0-3"><img src="./media/IMAGENS/girassol.png" height="50px" width="50px"></td>
+                        <td id="0-4"><img src="./media/IMAGENS/pote.png" height="50px" width="50px"></td>
+                        <td id="0-5"><img src="./media/IMAGENS/winiie.png" height="50px" width="50px"></td>
+                        <td id="0-6"><img src="./media/IMAGENS/paumel.png" height="50px" width="50px"></td>
+                        <td id="0-7"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                    </tr>
+                    <tr>
+                        <td id="1-0"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                        <td id="1-1"><img src="./media/IMAGENS/colmeia.png" height="50px" width="50px"></td>
+                        <td id="1-2"><img src="./media/IMAGENS/favo.png" height="50px" width="50px"></td>
+                        <td id="1-3"><img src="./media/IMAGENS/girassol.png" height="50px" width="50px"></td>
+                        <td id="1-4"><img src="./media/IMAGENS/pote.png" height="50px" width="50px"></td>
+                        <td id="1-5"><img src="./media/IMAGENS/winiie.png" height="50px" width="50px"></td>
+                        <td id="1-6"><img src="./media/IMAGENS/paumel.png" height="50px" width="50px"></td>
+                        <td id="1-7"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                    </tr>
+                    <tr>
+                        <td id="2-0"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                        <td id="2-1"><img src="./media/IMAGENS/colmeia.png" height="50px" width="50px"></td>
+                        <td id="2-2"><img src="./media/IMAGENS/favo.png" height="50px" width="50px"></td>
+                        <td id="2-3"><img src="./media/IMAGENS/girassol.png" height="50px" width="50px"></td>
+                        <td id="2-4"><img src="./media/IMAGENS/pote.png" height="50px" width="50px"></td>
+                        <td id="2-5"><img src="./media/IMAGENS/winiie.png" height="50px" width="50px"></td>
+                        <td id="2-6"><img src="./media/IMAGENS/paumel.png" height="50px" width="50px"></td>
+                        <td id="2-7"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                    </tr>
+                    <tr>
+                        <td id="3-0"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                        <td id="3-1"><img src="./media/IMAGENS/colmeia.png" height="50px" width="50px"></td>
+                        <td id="3-2"><img src="./media/IMAGENS/favo.png" height="50px" width="50px"></td>
+                        <td id="3-3"><img src="./media/IMAGENS/girassol.png" height="50px" width="50px"></td>
+                        <td id="3-4"><img src="./media/IMAGENS/pote.png" height="50px" width="50px"></td>
+                        <td id="3-5"><img src="./media/IMAGENS/winiie.png" height="50px" width="50px"></td>
+                        <td id="3-6"><img src="./media/IMAGENS/paumel.png" height="50px" width="50px"></td>
+                        <td id="3-7"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                    </tr>
+                    <tr>
+                        <td id="4-0"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                        <td id="4-1"><img src="./media/IMAGENS/colmeia.png" height="50px" width="50px"></td>
+                        <td id="4-2"><img src="./media/IMAGENS/favo.png" height="50px" width="50px"></td>
+                        <td id="4-3"><img src="./media/IMAGENS/girassol.png" height="50px" width="50px"></td>
+                        <td id="4-4"><img src="./media/IMAGENS/pote.png" height="50px" width="50px"></td>
+                        <td id="4-5"><img src="./media/IMAGENS/winiie.png" height="50px" width="50px"></td>
+                        <td id="4-6"><img src="./media/IMAGENS/paumel.png" height="50px" width="50px"></td>
+                        <td id="4-7"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                    </tr>
+                    <tr>
+                        <td id="5-0"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                        <td id="5-1"><img src="./media/IMAGENS/colmeia.png" height="50px" width="50px"></td>
+                        <td id="5-2"><img src="./media/IMAGENS/favo.png" height="50px" width="50px"></td>
+                        <td id="5-3"><img src="./media/IMAGENS/girassol.png" height="50px" width="50px"></td>
+                        <td id="5-4"><img src="./media/IMAGENS/pote.png" height="50px" width="50px"></td>
+                        <td id="5-5"><img src="./media/IMAGENS/winiie.png" height="50px" width="50px"></td>
+                        <td id="5-6"><img src="./media/IMAGENS/paumel.png" height="50px" width="50px"></td>
+                        <td id="5-7"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                    </tr>
+                    <tr>
+                        <td id="6-0"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                        <td id="6-1"><img src="./media/IMAGENS/colmeia.png" height="50px" width="50px"></td>
+                        <td id="6-2"><img src="./media/IMAGENS/favo.png" height="50px" width="50px"></td>
+                        <td id="6-3"><img src="./media/IMAGENS/girassol.png" height="50px" width="50px"></td>
+                        <td id="6-4"><img src="./media/IMAGENS/pote.png" height="50px" width="50px"></td>
+                        <td id="6-5"><img src="./media/IMAGENS/winiie.png" height="50px" width="50px"></td>
+                        <td id="6-6"><img src="./media/IMAGENS/paumel.png" height="50px" width="50px"></td>
+                        <td id="6-7"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                    </tr>
+                    <tr>
+                        <td id="7-0"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                        <td id="7-1"><img src="./media/IMAGENS/colmeia.png" height="50px" width="50px"></td>
+                        <td id="7-2"><img src="./media/IMAGENS/favo.png" height="50px" width="50px"></td>
+                        <td id="7-3"><img src="./media/IMAGENS/girassol.png" height="50px" width="50px"></td>
+                        <td id="7-4"><img src="./media/IMAGENS/pote.png" height="50px" width="50px"></td>
+                        <td id="7-5"><img src="./media/IMAGENS/winiie.png" height="50px" width="50px"></td>
+                        <td id="7-6"><img src="./media/IMAGENS/paumel.png" height="50px" width="50px"></td>
+                        <td id="7-7"><img src="./media/IMAGENS/abelha.png" height="50px" width="50px"></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+        <h3><a class="bottomright" href="gameover.html"><img src="./media/IMAGENS/abelha - Cópia.png" height="120" alt="Quit"></a></h3>
+        <h3><a class="bottomleft" href="./projeto.html"><img src="./media/IMAGENS/home.png" height="50" alt="Home"></a></h3>
+    </body>
+</html>
+

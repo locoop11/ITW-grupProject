@@ -1,0 +1,59 @@
+<!-- 2022-2023 ITW PL22 -->
+<!-- Grupo 34 -->
+<!-- 60276 Beatriz Santos -->
+<!-- 60290 João Martins -->
+<!-- 60253 Hugo Silva-->
+
+<!--O QUE FALTA:-->
+<!--MEDIA QUERIES-->
+<!--REDUZIR O TAMANHO DA CAIXA DO FORMS-->
+<!--ESTÉTICA DO FORMS-->
+<!--BOTÃO DE SEM SOM FUNCIONAR -->
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+    <head>
+        <title> BEEJEWELED </title>
+        <meta charset="utf-8">
+        <link href="./style/style.css" rel="stylesheet" >
+        <link href="./style/position.css" rel="stylesheet">
+        <script src="scripts/comportamento.js"></script>
+    </head>
+    <body>
+      <audio src="./media/SONS/music.mp3" autoplay></audio>
+        <h1 class="title"> BEEJEWELED</h1>
+        <div class="welcometext"> 
+        <h2>Hello! Welcome to Beejeweled!</h2>
+        <h3>In order to play you must have an account. </h3>
+        <p>Please join us:</p> </div>
+        <form id="frmNovaConta">
+        <fieldset>
+          <legend>Sign in</legend>
+          <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required> <br>
+            
+          <label for="E-mail"> E-mail: </label>
+            <input type="email" id="email" name="email" required> <br>
+          
+          <label for="Password"> Password: </label>
+            <input type="password" id="password" name="password" required><br>
+
+          <label for="Age"> Age: </label>
+            <input type="number" id="age" name="age" required><br>
+
+          <label for="Gender"> Gender: </label>
+            <select id="gender" name="gender" required>
+              <option value="" selected>-- Select gender -- </option>
+              <option value="male"> Male </option>
+              <option value="female"> Female </option>
+              <option value="other"> Other </option>
+            </select>
+        </fieldset> 
+        <button id="btnCreateAccount" type="button">Create Account</button>
+      </form>
+      </div>
+        <h3><a class="bottomleft" href="./projeto.html"><img src="./media/IMAGENS/home.png" height="50" alt="Home"></a></h3>
+        <img src="./media/IMAGENS/som.png" class="bottomright" height="70px">
+    </body>
+</html>
+

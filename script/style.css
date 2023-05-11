@@ -1,0 +1,178 @@
+/* 2022-2023 ITW PL22 */
+/* Grupo 34 */
+/* 60276 Beatriz Santos */
+/* 60290 João Martins */
+/* 60253 Hugo Silva */
+
+
+
+.title {
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-style: bolder;
+  font-size: 100px;
+  background-color: #FFF387;
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  color: #000000;
+}
+
+
+body{
+  background-image: url("../media/IMAGENS/abelhinha.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  text-align: right;
+  color: #000000;
+  font-style: bold;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 2px;
+  background-color: #FFF387;
+  display: inline-block;
+}
+
+
+.gametitle {
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  font-style: bolder;
+  font-size: 40px;
+  background-color: #FFF387;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #000000;
+}
+
+
+a:link {
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #000000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #908600;
+  text-decoration: underline;
+}
+
+.welcome {
+  background-color: #FFF387;
+}
+
+.text {
+  background-color: #FFF387;
+}
+
+.welcometext {
+  background-color: #FFF387;
+}
+
+.login {
+  width: 350px;
+  margin-left: 35%;
+  margin-right: 65%;
+}
+
+table {
+  background-color: #000000;
+}
+
+td {
+  padding: 5px;
+  border: 3px solid #FFF387;
+}
+
+.video-container {
+  max-width: 100%;
+}
+
+.howtoplay-container {
+  padding: 50px;
+}
+
+.column {
+  background-color: #FFF387;
+}
+
+
+.enter {
+  border: 1px black;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFF387;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: #FFF387;
+}
+
+.ranking {
+  border-collapse: collapse;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #FFF387;
+  border: 2px solid black;
+}
+
+.ranking td:first-child {
+  width: 600px;
+}
+
+.ranking td:nth-child(2) {
+  width: 500px;
+}
+
+.ranking th, .ranking td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.elem {
+  text-align: left;
+  padding: 8px;
+  border: 2px solid black;
+}
+
+
+#sound_settings {
+  background-color: #FFF387;
+  padding: 5px;
+}
+
+.settings_list {
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.settings_list li {
+  flex: 1;
+}
+
+
